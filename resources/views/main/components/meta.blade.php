@@ -6,8 +6,8 @@
 <meta name="copyright" content="Copyright (c) 2015-{{ date("Y") }} by {{ config('app.name') }}">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@sntl">
-<meta name="twitter:creator" content="@sntl">
+<meta name="twitter:site" content="@matias">
+<meta name="twitter:creator" content="@matias">
 <meta name="twitter:url" content="{{url()->current()}}">
 <meta name="twitter:title" content="{{ $title }} - {{ config('app.name') }}">
 <meta name="twitter:description" content="{{ $description }}">

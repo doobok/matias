@@ -1,14 +1,14 @@
 .gradient {
-  background: linear-gradient(90deg, #1FACB9 0%, #1FACB9 100%);
+  background: linear-gradient(90deg, #e23112 0%, #e23112 100%);
 }
 .t--ptimary {
-  color: #1FACB9;
+  color: #e23112;
 }
 .gradient--hovered:hover {
-  background: #1FACB9;
+  background: #e23112;
 }
 .t--ptimary--hovered {
-  color: #1FACB9;
+  color: #e23112;
 }
 .t--ptimary--hovered:hover {
   color: #fff;
@@ -17,10 +17,10 @@
   color: #f14444;
 }
 .menu--border {
-  border-bottom: 3px solid rgba(70, 171, 159, 0);
+  border-bottom: 3px solid rgba(1, 1, 1, 0);
 }
 .menu--border:hover {
-  border-bottom: 3px solid rgba(119, 211, 220, 1);
+  border-bottom: 3px solid rgba(240, 150, 150, 1);
 }
 
 /* #Mega Menu Styles

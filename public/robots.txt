@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sntl.ua/sitemap.xml
+Sitemap: https://matias.ua/sitemap.xml

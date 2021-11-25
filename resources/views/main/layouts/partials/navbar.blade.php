@@ -41,13 +41,12 @@
 
   <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
     <div class="pl-4 flex items-center">
-      <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="{{route('mainpage')}}">
-        <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 650">
-          <path
-          class="plane-take-off"
-          d="M535.01 421.14l102.42-102.42L318.72 0 106.67 212.05l196.74 196.74-4.51 4.51-196.74-196.74L0 318.72l318.72 318.71L530.5 425.65 333.36 228.51l4.51-4.51 197.14 197.14z"/>
+      <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl flex flex-nowrap" href="{{route('mainpage')}}">
+{{--        <img src="/logo/logo.svg" alt="" class="h-9 mr-2">--}}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333.86 318.28" class="h-9 mr-2" fill="currentColor">
+          <path d="m118.78 166.77-6.21 26.24-4.58 19.34 1.31.95 99.48-61.5 13-8 32-19.79 65.51-40.47 1 .72-30 64-63.58 135.61c46.92-34.17 81.45-79.52 97.38-131a217.32 217.32 0 0 0 3.18-117.54 362.54 362.54 0 0 0-99.95-30.62A389.4 389.4 0 0 0 166.93.03c-2.92 0-5.83 0-8.73.1zm11.44-165A366.67 366.67 0 0 0 6.59 35.38a217.09 217.09 0 0 0-4.15 85.54L130.17 1.71zm-36.84 165 27.87-120.68-1-.71L9.48 151.49l-.11.1c11.65 38.5 33.72 73.63 63.62 103.26l20.34-88.09zm169.4-19.6L88.98 252.84l-11.1 6.75a298.84 298.84 0 0 0 27.67 23.12 327.94 327.94 0 0 0 61.38 35.57q9.94-4.43 19.44-9.4l77.65-161.17-.74-.55-.24-.17-.29.18z"/>
         </svg>
-        SNTL
+        {{config('app.name')}}
       </a>
     </div>
     <div class="block lg:hidden pr-4">

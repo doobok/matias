@@ -28,6 +28,6 @@
   }
   article blockquote {
     @apply border-l-4 italic text-lg my-8 pl-8 md:pl-12;
-    border-color: #1FACB9;
+    border-color: #e23112;
   }
 }
