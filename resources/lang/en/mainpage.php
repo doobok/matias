@@ -15,7 +15,7 @@ return [
 
     'ready-solutions' => 'Ready-made solutions',
 
-    'some-facts' => 'Few facts about Sentinel',
+    'some-facts' => 'Few facts about Matias',
     '1-facts' => 'years on the market',
     '2-facts' => 'major projects',
     '3-facts' => 'partners',
