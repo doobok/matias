@@ -1,0 +1,59 @@
+.gradient {
+  background: linear-gradient(90deg, #1FACB9 0%, #1FACB9 100%);
+}
+.t--ptimary {
+  color: #1FACB9;
+}
+.gradient--hovered:hover {
+  background: #1FACB9;
+}
+.t--ptimary--hovered {
+  color: #1FACB9;
+}
+.t--ptimary--hovered:hover {
+  color: #fff;
+}
+.text--dander {
+  color: #f14444;
+}
+.menu--border {
+  border-bottom: 3px solid rgba(70, 171, 159, 0);
+}
+.menu--border:hover {
+  border-bottom: 3px solid rgba(119, 211, 220, 1);
+}
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mega-menu {
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+/* #hoverable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hoverable {
+  position: static;
+}
+.hoverable > a:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+.hoverable:hover .mega-menu {
+  display: block;
+}
+.txt-contured {
+  text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+}
+
+.indev {
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+}
