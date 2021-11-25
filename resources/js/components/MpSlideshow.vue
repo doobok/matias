@@ -49,7 +49,7 @@ export default {
     getUrl (url) {
       let link = null;
         if (url) {
-          if (this.lang == 'ru') {
+          if (this.lang === 'ru') {
              link = '/' + url;
           }
           else {
@@ -115,7 +115,7 @@ export default {
   .agile__dot--current:hover button {
       background-color: #fff;
   }
-// Slides styles
+
 .slide {
   display: block;
   height: 800px;

@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+// const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
     purge: [
@@ -11,14 +11,14 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-            },
-            backgroundImage: theme => ({
-             'right-multigons': "url('/poligons/poligon.svg')",
-             'left-multigons': "url('/poligons/r.svg')",
-             'right-white-multigons': "url('/poligons/w.svg')",
-            })
+            // fontFamily: {
+            //     sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+            // },
+            // backgroundImage: theme => ({
+            //  'right-multigons': "url('/poligons/poligon.svg')",
+            //  'left-multigons': "url('/poligons/r.svg')",
+            //  'right-white-multigons': "url('/poligons/w.svg')",
+            // })
         },
         backgroundSize: {
           'auto': 'auto',

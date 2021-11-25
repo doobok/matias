@@ -24,6 +24,8 @@ mix.js('resources/js/app.js', 'public/js')
     require('autoprefixer'),
 ]);
 
+mix.browserSync('matias.cam');
+
 if (mix.inProduction()) {
     mix.version();
 }
