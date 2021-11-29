@@ -27,7 +27,7 @@
               langs: [
                 {'code':'ru', 'name':'RU'},
                 {'code':'uk', 'name':'UA'},
-                {'code':'en', 'name':'EN'}
+                // {'code':'en', 'name':'EN'}
               ],
               openLng: false,
             }
@@ -47,6 +47,7 @@
           var header = document.getElementById("header");
           var navcontent = document.getElementById("nav-content");
           var contactstr = document.getElementById("contactStr");
+          var mainlogo = document.getElementById("mainLogo");
           var toToggle = document.querySelectorAll(".toggleColour");
 
           document.addEventListener("scroll", function () {
@@ -57,6 +58,7 @@
               header.classList.add("top-0");
               header.classList.remove("gradient");
               contactstr.classList.add("hidden");
+              mainlogo.src = '/logo/red.svg';
               //Use to switch toggleColour colours
               for (var i = 0; i < toToggle.length; i++) {
                 toToggle[i].classList.add("t--ptimary");
@@ -71,6 +73,7 @@
               header.classList.remove("top-0");
               header.classList.add("gradient");
               contactstr.classList.remove("hidden");
+              mainlogo.src = '/logo/white.svg';
               //Use to switch toggleColour colours
               for (var i = 0; i < toToggle.length; i++) {
                 toToggle[i].classList.add("text-white");

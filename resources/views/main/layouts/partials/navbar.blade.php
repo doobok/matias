@@ -18,34 +18,13 @@
 
         <span class="hidden md:block ml-3">{{__('site.shedule-days') . ' ' . setting('site.schedule')}}</span>
       </div>
-      {{-- social button --}}
-      {{-- <div class="flex">
-        <span class="mx-1">
-          <a href="#" target="_blank" rel="nofollow">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 20 20" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
-          </a>
-        </span>
-        <span class="mx-1">
-          <a href="#" target="_blank" rel="nofollow">
-            <svg width="22" height="22" fill="currentColor"><path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path></svg>
-          </a>
-        </span>
-        <span class="mx-1">
-          <a href="#" target="_blank" rel="nofollow">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-          </a>
-        </span>
-      </div> --}}
     </div>
   </div>
 
   <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
     <div class="pl-4 flex items-center">
       <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl flex flex-nowrap" href="{{route('mainpage')}}">
-{{--        <img src="/logo/logo.svg" alt="" class="h-9 mr-2">--}}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333.86 318.28" class="h-9 mr-2" fill="currentColor">
-          <path d="m118.78 166.77-6.21 26.24-4.58 19.34 1.31.95 99.48-61.5 13-8 32-19.79 65.51-40.47 1 .72-30 64-63.58 135.61c46.92-34.17 81.45-79.52 97.38-131a217.32 217.32 0 0 0 3.18-117.54 362.54 362.54 0 0 0-99.95-30.62A389.4 389.4 0 0 0 166.93.03c-2.92 0-5.83 0-8.73.1zm11.44-165A366.67 366.67 0 0 0 6.59 35.38a217.09 217.09 0 0 0-4.15 85.54L130.17 1.71zm-36.84 165 27.87-120.68-1-.71L9.48 151.49l-.11.1c11.65 38.5 33.72 73.63 63.62 103.26l20.34-88.09zm169.4-19.6L88.98 252.84l-11.1 6.75a298.84 298.84 0 0 0 27.67 23.12 327.94 327.94 0 0 0 61.38 35.57q9.94-4.43 19.44-9.4l77.65-161.17-.74-.55-.24-.17-.29.18z"/>
-        </svg>
+        <img id="mainLogo" src="/logo/white.svg" alt="{{config('app.name')}}" class="h-9 mr-2">
         {{config('app.name')}}
       </a>
     </div>
