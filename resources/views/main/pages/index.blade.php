@@ -16,7 +16,7 @@
 @endsection
 
 @section('content')
-<div class="gradient">
+<div>
 
   <mp-slideshow lang="{{app()->getLocale()}}" :slides="{{$slides}}"></mp-slideshow>
 

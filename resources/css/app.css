@@ -3,4 +3,5 @@
 @import 'tailwindcss/utilities';
 /* custom */
 @import "styles.scss";
+@import "waves.scss";
 @import "typography.css";
