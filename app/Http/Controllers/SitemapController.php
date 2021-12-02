@@ -10,9 +10,9 @@ class SitemapController extends Controller
 {
     public function sitemap()
     {
-      $mainpage_date = Project::orderBy('created_at', 'DESC')->value('updated_at');
+      $mainpage_date = Project::where('active', 1)->orderBy('created_at', 'DESC')->value('updated_at');
       $pages = Page::orderBy('created_at', 'DESC')->select('id', 'slug', 'updated_at')->get();
-      $projects = Project::orderBy('created_at', 'DESC')->select('id', 'slug', 'updated_at')->get();
+      $projects = Project::where('active', 1)->orderBy('created_at', 'DESC')->select('id', 'slug', 'updated_at')->get();
 
       return response()->view('main.sitemap', [
                 'pages' => $pages,
