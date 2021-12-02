@@ -35,7 +35,7 @@ class MainpagesController extends Controller
 
     public function portfolio()
     {
-      $projects = Project::where('active', 1)->orderBy('year', 'desc')->get();
+      $projects = Project::where('active', 1)->orderBy('year', 'desc')->orderBy('order', 'desc')->get();
 
       return view('main.pages.portfolio', [
         'projects' => $projects
