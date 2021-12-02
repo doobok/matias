@@ -14,7 +14,7 @@
 
     <div class="flex items-center justify-center pt-4">
       <a href="{{route('partners')}}">
-        <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold my-6 py-6 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+        <button class="rounded-lg mx-auto lg:mx-0 hover:underline gradient text-white font-bold my-6 py-6 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           {{__('site.see-partners')}}
         </button>
       </a>

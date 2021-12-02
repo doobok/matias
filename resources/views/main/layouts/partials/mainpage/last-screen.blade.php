@@ -1,4 +1,4 @@
-<section class="bg-gray-100 pt-4 bg-bottom-left bg-no-repeat bg-100 lg:bg-50 bg-left-multigons">
+<section class="bg-gradient-to-b from-gray-100 to-white pt-4">
   <div class="container max-w-6xl mx-auto m-8">
     <div class="flex flex-wrap flex-col-reverse sm:flex-row">
       <div class="w-full sm:w-1/2 p-6 mt-6 mb-9">

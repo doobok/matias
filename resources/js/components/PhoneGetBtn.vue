@@ -1,7 +1,7 @@
 <template>
   <div class="">
 
-    <button @click="open = true" class="mx-auto lg:mx-0 hover:underline font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+    <button @click="open = true" class="rounded-lg mx-auto lg:mx-0 hover:underline font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
     :class="color">
       {{title}}
     </button>

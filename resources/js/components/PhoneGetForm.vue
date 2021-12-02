@@ -24,7 +24,7 @@
                       name="name"
                       @blur="$v.name.$touch()"
                       type="text">
-                      <p v-if="$v.name.$error" class="text--dander pb-2">{{$ml.get('errName')}}</p>
+                      <p v-if="$v.name.$error" class="rounded-lg text--dander pb-2">{{$ml.get('errName')}}</p>
                     </label>
                     <label>
                       <span class="text-gray-700">{{$ml.get('phone')}}</span>
@@ -33,18 +33,18 @@
                         v-model="phone"
                         @blur="$v.phone.$touch()"
                         type="text">
-                        <p v-if="$v.phone.$error" class="text--dander">{{$ml.get('errPhone')}}</p>
+                        <p v-if="$v.phone.$error" class="rounded-lg text--dander">{{$ml.get('errPhone')}}</p>
                     </label>
                   <!-- </div> -->
               </div>
 
             <div class="mt-4">
               <div class="flex justify-end">
-                <button @click="close" class="px-4 bg-transparent p-3 hover:bg-gray-100 mr-2">{{$ml.get('cancel')}}</button>
+                <button @click="close" class="rounded-lg px-4 bg-transparent p-3 hover:bg-gray-100 mr-2">{{$ml.get('cancel')}}</button>
                 <button @click="sendPhone"
                   :disabled="$v.$invalid"
                   :class="!$v.$invalid ? 'gradient' : 'gray--btn'"
-                  class="px-4 p-3 text-white">{{$ml.get('send')}}
+                  class="rounded-lg px-4 p-3 text-white">{{$ml.get('send')}}
                 </button>
               </div>
             </div>

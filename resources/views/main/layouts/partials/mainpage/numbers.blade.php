@@ -15,7 +15,7 @@
                         </svg>
                     </div>
                     <div class="text-5xl sm:text-7xl font-bold py-4">
-                        6
+                        4
                     </div>
                     <div class="w-full text-xl">
                         {{__('mainpage.1-facts')}}

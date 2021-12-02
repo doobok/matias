@@ -21,7 +21,7 @@
             </p>
             <p class="mx-auto">
               <a :href="getUrl(slide.url)">
-                <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-700 font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                <button class="rounded-lg mx-auto lg:mx-0 hover:underline bg-white text-gray-700 font-bold my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   {{$ml.get('readmore')}}
                 </button>
               </a>

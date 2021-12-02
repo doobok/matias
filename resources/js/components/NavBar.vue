@@ -1,7 +1,7 @@
 <template>
-  <div @mouseover="openLng = true" @mouseleave="leaveLng()" class="relative inline-block text-left ml-3">
+  <div @mouseover="openLng = true" @mouseleave="leaveLng()" class="relative inline-block text-left mx-3">
     <div>
-      <button @click="openLng = ! openLng" class="underline inline-flex items-center justify-center p-2 text-gray-600 opacity-40 hover:opacity-100 hover:text-gray-500 bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-700 transition duration-150 ease-in-out text-sm">
+      <button @click="openLng = ! openLng" class="rounded underline inline-flex items-center justify-center p-2 text-gray-600 opacity-40 hover:opacity-100 hover:text-gray-500 bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-700 transition duration-150 ease-in-out text-sm">
         <span class="uppercase" v-if="lang != 'uk'">{{lang}}</span>
         <span class="uppercase" v-else>UA</span>
         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

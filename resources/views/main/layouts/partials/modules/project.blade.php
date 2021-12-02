@@ -1,8 +1,8 @@
 <div class="w-full flex items-stretch rounded-t sm:w-1/2 lg:w-1/3 p-6">
-  <div class="bg-white rounded-b-none overflow-hidden shadow">
+  <div class="rounded-lg bg-white rounded-b-none overflow-hidden shadow">
     <a href="{{route('project', [$project->slug]) }}" class="flex flex-wrap no-underline hover:no-underline">
       <div class="w-full flex items-center">
-        <img class="self-center" src="{{ Voyager::image( $project->thumbnail('cropped') ) }}" alt="{{$project->getTranslatedAttribute('heading')}}">
+        <img class="rounded-lg self-center" src="{{ Voyager::image( $project->thumbnail('cropped') ) }}" alt="{{$project->getTranslatedAttribute('heading')}}">
       </div>
       <div class="w-full text-lg font-bold text-gray-800 mt-6 px-6">
         {{$project->getTranslatedAttribute('heading')}}
@@ -21,7 +21,7 @@
     <div class="flex justify-center p-4 border-t border-gray-300 text-gray-700 bg-white overflow-hidden p-6">
         <div>
           <a href="{{route('project', [$project->slug]) }}">
-            <button class="hover:underline gradient text-white font-bold my-1 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <button class="rounded-lg hover:underline gradient text-white font-bold my-1 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
               {{__('site.readmore')}}
             </button>
           </a>
