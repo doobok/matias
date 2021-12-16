@@ -8,7 +8,7 @@
 <div id="app">
 @include('main.layouts.partials.navbar')
 
-@include('main.layouts.partials.in-dev')
+{{--@include('main.layouts.partials.in-dev')--}}
 
 <div class="bg-white bg-right-top bg-no-repeat bg-100 lg:bg-50 bg-right-multigons">
 @yield('content')
