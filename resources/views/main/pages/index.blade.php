@@ -9,7 +9,7 @@
                         'schedule' => setting('site.schedule'),
                         ])}}
   @endslot
-  @slot('image') /main.png @endslot
+  @slot('image') /main.jpg @endslot
   @slot('date') {{config('app.startdate')}} @endslot
 
 @endcomponent
