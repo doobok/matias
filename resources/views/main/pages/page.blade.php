@@ -53,6 +53,6 @@
     </article>
   </section>
 
-  @include('main.layouts.partials.tr.bottom')
+  @include('main.layouts.partials.contact-us')
 
 @endsection

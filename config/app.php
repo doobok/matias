@@ -18,6 +18,7 @@ return [
     'ga' => env('G_ANALYTICS', null),
     'telegramchat' => env('TELEGRAM_CHAT', null),
     'startdate' => env('START_DATE', 2020-02-17),
+    'administrator_mail' => env('MAIL_ADMIN_ADDRESS', 'basip@matiasbud.com.ua'),
 
     /*
     |--------------------------------------------------------------------------
