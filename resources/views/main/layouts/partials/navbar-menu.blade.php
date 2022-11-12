@@ -76,7 +76,7 @@
                       </a>
                     </div>
                     <div class="mb-2">
-                      <a href="#" class="flex items-center">
+                      <a href="{{ route('page', 'intercom-systems') }}" class="flex items-center">
                         <svg class="h-5 mb-3 mr-4 fill-current text-white"
                           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                           <path d="M0 9h24v6h-24z"/>
