@@ -51,11 +51,11 @@
           <a href="{{route('setlocale', ['lang' => 'uk'])}}" class="px-4 py-2 ml-1 text-sm text-gray-700 bg-gray-100 hover:bg-gray-200 hover:text-gray-900" rel="nofollow">UA</a>
         </span>
         @endif
-        @if (app()->getLocale() != 'en')
-        <span>
-          <a href="{{route('setlocale', ['lang' => 'en'])}}" class="px-4 py-2 ml-1 text-sm text-gray-700 bg-gray-100 hover:bg-gray-200 hover:text-gray-900" rel="nofollow">EN</a>
-        </span>
-        @endif
+{{--        @if (app()->getLocale() != 'en')--}}
+{{--        <span>--}}
+{{--          <a href="{{route('setlocale', ['lang' => 'en'])}}" class="px-4 py-2 ml-1 text-sm text-gray-700 bg-gray-100 hover:bg-gray-200 hover:text-gray-900" rel="nofollow">EN</a>--}}
+{{--        </span>--}}
+{{--        @endif--}}
       </div>
 
       <nav-bar class="hidden lg:block" lang="{{app()->getLocale()}}"></nav-bar>
