@@ -175,6 +175,17 @@
                         </a>
                     </div>
                 </ul>
+                <ul class="px-4 w-full sm:w-1/2 lg:w-1/3 pb-6 pt-6 lg:pt-3">
+                    <div class="mb-2">
+                        <a href="{{ route('page', 'domofonnye-sistemy') }}" class="flex items-center">
+                            <svg class="h-5 mb-3 mr-4 fill-current text-white"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M0 9h24v6h-24z"/>
+                            </svg>
+                            <p class="font-bold text-base text-white mb-2 menu--border">HIKVISION</p>
+                        </a>
+                    </div>
+                </ul>
             </div>
         </div>
     </li>
